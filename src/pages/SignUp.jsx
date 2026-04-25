@@ -1,4 +1,4 @@
-import Profile from "../component/SignInLogin/profile";
+import Profile from "../component/SignInLogin/Profile";
 import Signin from "../component/SignInLogin/Signin"
 import { useSelector } from "react-redux"
 const SignUp = () => {
