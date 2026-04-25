@@ -315,7 +315,7 @@ const resources = {
       "Explore our products and tap the heart icon to save what you love.": "Explore our products and tap the heart icon to save what you love."
     }
   },
-  ar: {
+ar: {
     translation: {
       "GAME": "العاب",
       "VAULT": "الخزنه",
@@ -487,7 +487,6 @@ const resources = {
       "We value your feedback. Tell us about your experience to help us improve.": "نُقدّر ملاحظاتكم. أخبرونا عن تجربتكم لمساعدتنا على التحسين",
       "Order Now": "طلب جديد",
       "Release :": "اصدار : ",
-      "Type : ": "النوع : ",
       "store : ": "الحالة : ",
       "Available Colors : ": "الألوان المتاحة: ",
       "Add To Cart": "أضف إلى السلة",
@@ -647,6 +646,7 @@ const resources = {
       "Your wishlist is empty": "قائمة الأمنيات الخاصة بك فارغة",
       "Explore our products and tap the heart icon to save what you love.": "استكشف منتجاتنا واضغط على أيقونة القلب لحفظ ما تحب."
     }
+  
   }
 };
 
