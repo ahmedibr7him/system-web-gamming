@@ -1,5 +1,5 @@
-import Profile from "../component/signInLogin/profile";
-import Signin from "../component/signInLogin/Signin"
+import Profile from "../component/SignInLogin/profile";
+import Signin from "../component/SignInLogin/Signin"
 import { useSelector } from "react-redux"
 const SignUp = () => {
   const {user} = useSelector(state=>state.auth);

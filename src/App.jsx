@@ -25,11 +25,11 @@ const Product = lazy(() => import("./pages/Product"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ProductID = lazy(() => import("./component/product/productId/ProductID"));
 const SignUp = lazy(() => import("./pages/SignUp"));
-const Login = lazy(() => import("./component/signInLogin/Login"));
+const Login = lazy(() => import("./component/SignInLogin/Login"));
 const Favourite = lazy(() => import("./component/Favourite/Favourite"));
 const Cart = lazy(() => import("./component/Cart/Cart"));
 const ConfirmData = lazy(() => import("./component/Cart/ConfirmData"));
-const Profile = lazy(() => import("./component/signInLogin/Profile"));
+const Profile = lazy(() => import("./component/SignInLogin/profile"));
 const OrderUser = lazy(() => import("./component/orderUser/OrderUser"));
 
 // Dashboard Pages (Lazy Loaded)
