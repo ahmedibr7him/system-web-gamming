@@ -25,7 +25,7 @@ const Product = lazy(() => import("./pages/Product"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ProductID = lazy(() => import("./component/product/productId/ProductID"));
 const SignUp = lazy(() => import("./pages/SignUp"));
-const Login = lazy(() => import("./component/SignInLogin/Login"));
+const Login = lazy(() => import("./component/SignInLogin/Login.jsx"));
 const Favourite = lazy(() => import("./component/Favourite/Favourite"));
 const Cart = lazy(() => import("./component/Cart/Cart"));
 const ConfirmData = lazy(() => import("./component/Cart/ConfirmData"));
