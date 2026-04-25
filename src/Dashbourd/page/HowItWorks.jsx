@@ -1,6 +1,6 @@
 import Title from "../../component/Title";
 import { useTranslation } from "react-i18next";
-import HowitworkInput from "../component/HowItWork/howitworkInput";
+import HowitworkInput from "../component/HowItWork/HowitworkInput";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getHowItWork } from "../Redux/HowItWork";
