@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import { Provider } from "react-redux";
 import { CountStore } from "./Redux/CountStore";
-import './I18n/i18n';
+import './I18n/I18n.jsx';
 import './index.css' 
 createRoot(document.getElementById('root')).render(
     <Provider store={CountStore}>
