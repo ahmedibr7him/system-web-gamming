@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --breakpoint-xs:200px;
+  --breakpoint-sm: 360px;
+  --breakpoint-msm: 400px;
+  --breakpoint-md: 599px;
+  --breakpoint-mmd: 700px;
+  --breakpoint-lg: 900px;
+  --breakpoint-mlg:1024px;
+  --breakpoint-xl: 1280px;
+}
+*{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  user-select: none;
+  font-display: swap
+
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;800&family=Roboto:wght@300;400;500;700&display=swap'); */
+
+@theme {
+  --font-ar: 'Cairo', sans-serif;
+  --font-en: 'Roboto', sans-serif;
+}
+
+@theme {
+  /* Background */
+  --color-bg: oklch(98.4% 0.003 247.858);
+
+  /* Text */
+  --color-text: oklch(255 0.02 240);
+
+  /* Primary (Gaming Green) */
+  --color-primary: oklch(60% 0.118 184.704);
+
+  /* Secondary (Tech Blue) */
+  --color-secondary: oklch(55.6% 0 0) ;
+  /* color star */
+  --color-star: oklch(82.8% 0.189 84.429)  ;
+
+}
+
+
+
+
+
+
+
+.block {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+.feature-swiper .swiper-pagination-bullet {
+  background-color: #cbd5e1;
+  opacity: 1;
+}
+
+.feature-swiper .swiper-pagination-bullet-active {
+  background-color: #22c55e;
+}
+
+
+
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.swiper-slide {
+  overflow: visible !important;
+  display: flex;
+}
+
+
+
+
+
+/*  */
+
+.stack-3d {
+  transform-style: preserve-3d;
+}
+
+
+/* hero */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  src: url('/fonts/fa-solid-900.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; 
+}
