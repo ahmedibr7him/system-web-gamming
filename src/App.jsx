@@ -29,7 +29,7 @@ const Login = lazy(() => import("./component/SignInLogin/Login"));
 const Favourite = lazy(() => import("./component/Favourite/Favourite"));
 const Cart = lazy(() => import("./component/Cart/Cart"));
 const ConfirmData = lazy(() => import("./component/Cart/ConfirmData"));
-const Profile = lazy(() => import("./component/SignInLogin/profile"));
+const Profile = lazy(() => import("./component/SignInLogin/Profile"));
 const OrderUser = lazy(() => import("./component/orderUser/OrderUser"));
 
 // Dashboard Pages (Lazy Loaded)
